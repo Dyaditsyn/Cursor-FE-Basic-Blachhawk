@@ -59,12 +59,15 @@ td {
 
 .search {
     background: #4F4E4E;
+    color: #fafafa;
+    padding: 10px;
     border-radius: 5px;
     padding-right: 3px;
     width: 45%;
     height: 100%;
     float: right;
     border: none;
+    outline: none;
 }
 
 .search-right-padding {
