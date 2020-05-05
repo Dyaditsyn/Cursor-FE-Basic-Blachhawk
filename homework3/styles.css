@@ -4,21 +4,21 @@ body {
 
 table {
     border: 1px solid #C6C6C6;
-    border-spacing: 0px;  /*remove spacing*/
-    cellspacing: 0;
-    border-radius: 4px; /*rounding?*/
-    width: 60%; /* table width */
+    border-spacing: 0px;  /* remove spacing */
+    cellspacing: 0; /* remove spacing */
+    border-radius: 4px; /* corners rounding */
+    width: 50%; /* table width */
     background: #333333; /* table background */
     color: #C6C6C6; /* text color */
     font-family: Helvetica, sans-serif;
     font-size: 16px;
-    margin-left: 50px;
-    margin-top: 150px;
+    margin: auto;
+    margin-top: 50px;
     table-layout: fixed;
 }
 
 td, th {
-    height: 40px;
+    height: 30px;
     padding: 10px 15px;
 }
 
@@ -34,4 +34,23 @@ td {
 
 .faded {
     color: gray;
+}
+
+.faded-dots, .dots {
+    float: right;
+    width:20px;
+}
+
+.triangle {
+    padding-left: 5px;
+    width: 13px;
+}
+
+.checkbox {
+    margin-left: 0;
+}
+
+.inbox {
+    padding-right: 7px;
+    width:19px;
 }
