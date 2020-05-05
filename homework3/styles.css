@@ -1,0 +1,22 @@
+body {
+    background: #333333;
+}
+
+table {
+    border: 1px solid #C6C6C6;
+    border-spacing: 0px;  /*remove spacing*/
+    cellspacing: 0;
+    border-radius: 4px; /*rounding?*/
+    width: 60%; /* table width */
+    background: #333333; /* table background */
+    color: #C6C6C6; /* text color */
+}
+
+th {
+    height: 50px;
+}
+
+td {
+    border-top: 1px solid #C6C6C6;
+    height: 50px;
+}
