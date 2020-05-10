@@ -1,0 +1,73 @@
+body {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #FFFFFF;
+
+    background-image: url(./img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.cloud-logo{
+    width: 24.65px;
+    height: 17.4px;
+}
+
+.cloudbudget__logo{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header__list, .lang__code, .login, .signup, .content__header, .cloudbudget__logo{
+    text-transform: uppercase;
+}
+
+.header__link{
+    color: #FFFFFF;
+}
+
+.flag__logo{
+    width: 32px;
+    height: 32px;
+}
+
+.arrow__logo{
+    width: 12.38px;
+    height: 7.45;
+}
+
+.content__header{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 86px;
+}
+
+.content{
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.login{
+    background: transparent;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.signup{
+    background: #FFFFFF;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    color:  #ED4C5C;
+}
