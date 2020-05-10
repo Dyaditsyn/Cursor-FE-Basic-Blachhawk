@@ -94,6 +94,7 @@ html, body {
     border-radius: 6px;
     color: #FFFFFF;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .login__button:active{
@@ -141,15 +142,19 @@ html, body {
     width: 160px;
     height: 50px;
     border-radius: 6px;
+    cursor: pointer;
     color:  #ED4C5C;
+    border: none;
 }
 
 .signup__button{
     margin-bottom: 187px;
 }
 
+
 .signup__button:active{
     transform: translateX(1px) translateY(1px);
+    box-shadow: none;
 }
 
 /*Main content styles end*/
