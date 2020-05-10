@@ -10,10 +10,10 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-width: 100vw;
+    /*min-width: 100vw; scroll test*/
     min-height: 100vh;
 
-    overflow-x: hidden;
+    /*overflow-x: hidden; scroll test*/
 }
 
 /*Header styles start*/
@@ -26,7 +26,7 @@ html, body {
     align-items: center;
     justify-content: space-around;
     height: 100px;
-    width: 100%;
+    width: 100vw;
     margin-top: 17px;
 }
 
