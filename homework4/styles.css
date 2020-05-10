@@ -51,7 +51,6 @@ html, body {
     margin-right: 30px;
 }
 
-
 .header__list, .lang__code, .login, .cloudbudget__logo{
     text-transform: uppercase;
 }
@@ -125,7 +124,7 @@ html, body {
     margin-bottom: 39px;
 }
 
-.subtitle{
+.content{
     font-size: 24px;
     width: 540px;
     height: 124px;
