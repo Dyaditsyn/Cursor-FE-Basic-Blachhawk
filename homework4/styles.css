@@ -110,7 +110,8 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 257px;
+    justify-content: center;
+    height: 80vh;
 }
 
 .title, .signup{
@@ -121,7 +122,6 @@ html, body {
     font-size: 72px;
     font-weight: bold;
     line-height: 86px;
-    margin-bottom: 39px;
 }
 
 .content{
@@ -132,7 +132,7 @@ html, body {
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
-    margin-bottom: 39px;
+    margin: 60px auto;
 }
 
 .signup{
@@ -146,10 +146,9 @@ html, body {
     border: none;
 }
 
-.signup__button{
+/*.signup__button{
     margin-bottom: 187px;
-}
-
+}*/
 
 .signup__button:active{
     transform: translateX(1px) translateY(1px);
