@@ -1,4 +1,4 @@
-html, body {
+body {
     font-family: Lato;
     font-style: normal;
     font-size: 14px;
@@ -24,8 +24,8 @@ html, body {
     align-items: center;
     justify-content: space-around;
     height: 100px;
-    width: 100vw;
-    margin-top: 17px;
+    width: 100%;
+    padding-top: 17px;
 }
 
 .cloud-logo{
