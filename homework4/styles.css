@@ -1,4 +1,4 @@
-body {
+html, body {
     font-family: Lato;
     font-style: normal;
     font-size: 14px;
@@ -12,11 +12,16 @@ body {
     background-position: center;
     min-width: 100vw;
     min-height: 100vh;
+
+    overflow-x: hidden;
 }
+
+/*Header styles start*/
 
 .cloud-logo{
     width: 24.65px;
     height: 17.4px;
+    margin-right: 5px;
 }
 
 .cloudbudget__logo{
@@ -25,12 +30,17 @@ body {
     line-height: 22px;
 }
 
-.header__list, .lang__code, .login, .signup, .content__header, .cloudbudget__logo{
+.header__list, .lang__code, .login, .cloudbudget__logo{
     text-transform: uppercase;
 }
 
-.header__link{
+.header__link, .logo__link{
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__link:hover{
+    opacity: 0.75;
 }
 
 .flag__logo{
@@ -43,17 +53,6 @@ body {
     height: 7.45;
 }
 
-.content__header{
-    font-size: 72px;
-    font-weight: bold;
-    line-height: 86px;
-}
-
-.content{
-    font-size: 24px;
-    line-height: 150%;
-}
-
 .login{
     background: transparent;
     width: 100px;
@@ -62,12 +61,92 @@ body {
     box-sizing: border-box;
     border-radius: 6px;
     color: #FFFFFF;
+    margin-left: 20px;
 }
+
+.login__button:active{
+    transform: translateX(1px) translateY(1px);
+}
+
+.navbar__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    margin-top: 17px;
+}
+
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lang__log{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header__item{
+    margin-right: 30px;
+}
+
+.lang__flag, .lang__code{
+    margin-right: 10px;
+}
+
+/*Header styles end*/
+
+/*============================================*/
+
+/*Main content styles start*/
+
+.main__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 257px;
+}
+
+.title, .signup{
+    text-transform: uppercase;
+}
+
+.title{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 86px;
+    margin-bottom: 39px;
+}
+
+.subtitle{
+    font-size: 24px;
+    width: 540px;
+    height: 124px;
+    line-height: 36px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 39px;
+}
+
 
 .signup{
     background: #FFFFFF;
+    box-sizing: border-box;
     width: 160px;
     height: 50px;
     border-radius: 6px;
     color:  #ED4C5C;
 }
+
+.signup__button{
+    margin-bottom: 187px;
+}
+
+.signup__button:active{
+    transform: translateX(1px) translateY(1px);
+}
+/*Main content styles end*/
