@@ -10,10 +10,8 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /*min-width: 100vw; scroll test*/
     min-height: 100vh;
-
-    /*overflow-x: hidden; scroll test*/
+    width: 100%;
 }
 
 /*Header styles start*/
