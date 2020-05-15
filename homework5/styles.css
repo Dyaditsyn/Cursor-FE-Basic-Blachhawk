@@ -21,15 +21,14 @@ a {
     text-decoration: none; 
    } 
 
-
 /*Header styles start*/
 
 .header__wrapper{
     height: 500px;
+    width: 80%;
     background-color: #ED4C5C;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .header__image{
