@@ -35,13 +35,13 @@ a {
 .header__image{
     width: 40%;
     height: 311px;
-    margin-left: 100px;
 }
 
 .header__text{
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin: 70px;
 }
 
 .header__title{
@@ -172,6 +172,10 @@ li{
 .adress__content{
     color: #101010;
     line-height: 1.5;
+}
+
+.copyrigt{
+    vertical-align: bottom;
 }
 
 .services__item{
