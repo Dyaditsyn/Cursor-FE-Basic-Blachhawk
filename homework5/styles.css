@@ -83,14 +83,15 @@ windows__logo{
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 115px;
 }
 
 .main__text{
     display: flex;
     flex-direction: column;
     width: 40%;
-
+    padding-right: 50px;
 }
 
 .main__title{
@@ -104,16 +105,44 @@ windows__logo{
     color: #000000;
     font-size: 1.16rem;
     line-height: 1.4;
+    padding-top: 40px;
 }
 
 .form{
+    display: flex;
+    flex-direction: column;
     width: 40%;
+    padding-left: 60px;
 }
 
-.name, .long__input{
+.fname__input, .lname__input, .phone__input, .service__input{
     border: 1px solid #333333;
     box-sizing: border-box;
     border-radius: 6px;
+    margin-bottom: 24px;
+    padding: 20px;
+    font-size: 1.33rem;
+    line-height: 1.2;
+}
+
+.fname__input, .lname__input{
+    width: 255px;
+    height: 60px;
+}
+
+.fname__input{
+    margin-right: 30px;
+}
+
+.phone__input, .service__input{
+    width: 540px;
+    height: 60px;
+}
+
+.service__input{
+    background-image: url(./img/svg/chevron-down.svg);
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .submit{
@@ -128,6 +157,7 @@ windows__logo{
     color: #FFFFFF;
     text-transform: uppercase;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .submit__button:active{
