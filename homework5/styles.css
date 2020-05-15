@@ -77,20 +77,24 @@ windows__logo{
 
 /*Main styles start*/
 
-.main__wrapper{
+.main{
+    display: flex;
     height: 500px;
     background-color: #FFFFFF;
+    align-items: center;
+}
+
+.main__wrapper{
+    width: 80%;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 115px;
+    justify-content: space-between;
+    margin: 50px;
 }
 
 .main__text{
     display: flex;
     flex-direction: column;
     width: 40%;
-    padding-right: 50px;
 }
 
 .main__title{
@@ -104,14 +108,12 @@ windows__logo{
     color: #000000;
     font-size: 1.16rem;
     line-height: 1.4;
-    padding-top: 40px;
 }
 
 .form{
     display: flex;
     flex-direction: column;
     width: 40%;
-    padding-left: 60px;
 }
 
 .fname__input, .lname__input, .phone__input, .service__input{
