@@ -11,12 +11,13 @@ body {
     width: 100%;
 }
 
-/*.header{
-    width: 80%;
-    margin: 0 auto;
+.header{
+    display: flex;
+    height: 500px;
+    background-color: #ED4C5C;
+    align-items: center;
 }
 
-*/
 a { 
     text-decoration: none; 
    } 
@@ -24,9 +25,7 @@ a {
 /*Header styles start*/
 
 .header__wrapper{
-    height: 500px;
     width: 80%;
-    background-color: #ED4C5C;
     display: flex;
     justify-content: space-between;
 }
