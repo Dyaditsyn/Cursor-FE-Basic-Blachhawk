@@ -34,7 +34,6 @@ a {
 .header__image{
     width: 40%;
     height: 311px;
-    margin-right: 10%;
 }
 
 .header__text{
@@ -88,15 +87,14 @@ a {
 .main__wrapper{
     width: 80%;
     display: flex;
-    justify-content: center;
-    margin-left: 5%;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .main__text{
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin-left: 75px;
 }
 
 .main__title{
@@ -193,10 +191,6 @@ li{
     margin-top: 80px;
     margin-bottom: 40px;
 }
-
-/*.adress{
-    padding-right: 5%;
-}*/
 
 .adress__content{
     color: #101010;
