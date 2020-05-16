@@ -34,13 +34,13 @@ a {
 .header__image{
     width: 40%;
     height: 311px;
+    margin-right: 10%;
 }
 
 .header__text{
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin: 70px;
 }
 
 .header__title{
@@ -67,9 +67,10 @@ a {
     height: 32px;
 }
 
-windows__logo{
+.windows__logo{
     width: 24px;
     height: 24px;
+    margin-bottom: 5px;
 }
 
 /*Header styles end*/
@@ -87,14 +88,15 @@ windows__logo{
 .main__wrapper{
     width: 80%;
     display: flex;
-    justify-content: space-between;
-    margin: 50px;
+    justify-content: center;
+    margin-left: 5%;
 }
 
 .main__text{
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin-left: 75px;
 }
 
 .main__title{
@@ -108,42 +110,37 @@ windows__logo{
     color: #000000;
     font-size: 1.16rem;
     line-height: 1.4;
+    margin-top: 40px;
 }
 
 .form{
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin-left: 13%;
 }
 
-.fname__input, .lname__input, .phone__input, .service__input{
+.fname__input, .lname__input, .phone__input, .service__select{
     border: 1px solid #333333;
     box-sizing: border-box;
     border-radius: 6px;
     margin-bottom: 24px;
-    padding: 20px;
+    padding: 15px;
     font-size: 1.33rem;
     line-height: 1.2;
 }
 
+.name__input{
+    display: flex;
+    justify-content: space-between;
+}
+
 .fname__input, .lname__input{
-    width: 255px;
-    height: 60px;
+    width: 47%;
 }
 
-.fname__input{
-    margin-right: 30px;
-}
-
-.phone__input, .service__input{
-    width: 540px;
-    height: 60px;
-}
-
-.service__input{
-    background-image: url(./img/svg/chevron-down.svg);
-    background-position: right;
-    background-repeat: no-repeat;
+.phone__input, .service__select{
+    width: 100%;
 }
 
 .submit{
@@ -195,18 +192,18 @@ li{
     margin-bottom: 40px;
 }
 
-
-.adress{
-    padding-right: 11.8%;
-}
+/*.adress{
+    padding-right: 5%;
+}*/
 
 .adress__content{
     color: #101010;
     line-height: 1.5;
+    padding-right: 40%;
 }
 
-.copyrigt{
-    vertical-align: bottom;
+.copyright{
+    margin-top: 100px;
 }
 
 .services__item{
@@ -236,4 +233,5 @@ li{
     width: 216px;
     height: 31px;
 }
+
 /*Footer styles end*/

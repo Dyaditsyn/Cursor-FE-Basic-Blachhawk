@@ -40,7 +40,9 @@
 
     </header>
 
-        <main class="main__wrapper">
+
+    <main class="main">
+        <div class="main__wrapper">
 
             <div class="main__text">
                 <h1 class="main__title">
@@ -53,19 +55,23 @@
 
             <form class="form">
 
-                <p><input class="fname__input" placeholder="First Name" name="name" type="text">
-                <input class="lname__input" placeholder="Last Name" name="lastname" type="text"></p>
+                <div class="name__input">
+                    <input class="fname__input" placeholder="First Name" name="name" type="text">
+                    <input class="lname__input" placeholder="Last Name" name="lastname" type="text">
+                </div>
 
-                <p><input class="phone__input" placeholder="Phone Number" name="phone" type="text"></p>
+                <input class="phone__input" placeholder="Phone Number" name="phone" type="text">
 
-                <p><input class="service__input" placeholder="Select Service" name="service" type="text"></p>
-
+                <select class="service__select">
+                    <option selected disabled>Select Service</option>
+                </select>
                 <div class="submit__button">
                     <button class="submit" type="submit">submit now</button>
                 </div>
                 
             </form>
-        </main>
+        </div>
+    </main>
 
 
         <footer class="footer__wrapper">
@@ -79,9 +85,9 @@
                     81-83 Jacovides Tower, 1st Floor
                     1090 Picosia USA
                 </p>
-                <span class="copyright">
+                <p class="copyright">
                     Copyright 2018 CloudBudget
-                </span>
+                </p>
             </div>
 
             <nav class="services">
