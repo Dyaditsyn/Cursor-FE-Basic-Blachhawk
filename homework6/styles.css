@@ -205,6 +205,8 @@ body {
     width: 50%;
 }
 
+/*next fix*/
+
 .feature__items{
     display: flex;
     flex-wrap: wrap;
