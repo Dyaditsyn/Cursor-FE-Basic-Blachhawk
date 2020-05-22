@@ -21,18 +21,36 @@ body {
 
 .header__wrapper{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
+    align-items: center;
+    padding-top: 50px;
 }
 
 .bars__logo{
     width: 49px;
 }
 
+.logo__links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.navbar__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:  space-around;
+    justify-content: center;
+}
+
 .navbar__list{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .navbar__link{
@@ -42,6 +60,7 @@ body {
 
 .navbar__item{
     font-weight: 500;
+    margin-right: 50px;
 }
 
 .strong{
@@ -389,6 +408,8 @@ body {
 
 .footer__wrapper{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .DW__logo{
@@ -398,7 +419,15 @@ body {
     color: #212353;
 }
 
-.adreess{
+.contacts{
+    width: 40%;
+}
+
+.about, .help .social{
+    width: 20%;
+}
+
+.adress{
     font-weight: 700;
     line-height: 1.8;
     letter-spacing: 0.01em;
