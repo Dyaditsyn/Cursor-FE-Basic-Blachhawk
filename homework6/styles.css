@@ -162,6 +162,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .pink__header{
@@ -170,14 +172,14 @@ body {
     font-size: 2.5rem;
     line-height: 1.3;
     color: #212353;
-    width: 50%;
+    width: 40%;
 }
 
 .pink__text{
     font-weight: 500;
     font-size: 1.125rem;
     color: #4B5D68;
-    width: 50%;
+    width: 40%;
     margin-top: 60px;
 }
 
