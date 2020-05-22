@@ -92,10 +92,27 @@ body {
 /*Main styles start*/
 
 .main__content{
-    background-image: url(./img/save-data.svg);
-    height: 468px;
+    display: flex;
+    flex-direction: column;
+    background: url(./img/save-data.svg);
+    background-position: right;
+    background-size: contain;
+    /*height: 468px;*/
     background-repeat: no-repeat;
+    margin: 100px 0;
 }
+
+.text__block{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 100px;
+}
+
+.main__text{
+    width: 60%;
+    margin: 50px 0;
+}  
 
 .main__header{
     font-family: Helvetica;
