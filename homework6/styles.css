@@ -259,6 +259,8 @@ html, body {
     background-image: url(./img/security-code.svg);
 }
 
+/*testing*/
+
 .testimonials{
     display: flex;
     flex-direction: column;
