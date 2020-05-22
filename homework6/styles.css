@@ -185,6 +185,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .features__title{
@@ -196,6 +197,7 @@ body {
 }
 
 .features__subtitle{
+    text-align: center;
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 1.6;
