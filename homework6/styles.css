@@ -264,8 +264,7 @@ html, body{
 .testimonials{
     display: flex;
     flex-direction: column;
-    /*background-color: #9C69E2;*/
-    background-color: #000000;
+    background-color: #9C69E2;
     border-radius: 50px;
     margin-bottom: 150px;
     margin-top: 50px;
@@ -278,7 +277,7 @@ html, body{
     background-color: #FFFFFF;
     border-radius: 20px;
     background-image: url(./img/john-fang.svg);
-    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    box-shadow: 0px 20px 0px rgba(90, 65, 226, 0.3);
     background-repeat: no-repeat;
     background-position-x: 10% ;
     background-position-y: 20%;
@@ -340,13 +339,12 @@ html, body{
 }
 
 .arrow__previous{
-    transform: rotate(-180deg);
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .arrow__next{
     margin-left: 20px;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .separator{
@@ -383,11 +381,6 @@ html, body{
 .demo__button{
     margin-left: 30px;
 }
-/*
-.submit__button:active{
-    transform: translateX(1px) translateY(1px);
-}
-*/
 
 /*Main styles end*/
 
@@ -514,13 +507,11 @@ html, body{
 }
 
 .arrow__previous:hover{
-    transform: rotate(-180deg);
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .arrow__next:hover{
-    margin-left: 20px;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .message:hover{
