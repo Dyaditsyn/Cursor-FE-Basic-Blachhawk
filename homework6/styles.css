@@ -358,6 +358,7 @@ html, body {
 .try{
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 .try__content{
@@ -383,6 +384,13 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 125px;
+}
+
+.footer__logo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .DW__logo{
@@ -390,13 +398,16 @@ html, body {
     font-style: bold;
     font-size: 1.25rem;
     color: #212353;
+    vertical-align: top;
+    margin-left: 10px;
 }
 
 .contacts{
     width: 40%;
+    padding-right: 20%;
 }
 
-.about, .help .social{
+.about, .help, .social{
     width: 20%;
 }
 
@@ -405,6 +416,8 @@ html, body {
     line-height: 1.8;
     letter-spacing: 0.01em;
     color: #212353;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .contact__item{
@@ -416,11 +429,21 @@ html, body {
 .footer__title{
     font-weight: 900;
     color: #212353;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .footer__link, .email__link, .phone__link, .about__link, .help__link{
     text-decoration: none;
     color: #4B5D68;
+}
+
+.about__link, .help__link{
+    line-height: 2.5;
+}
+
+.help{
+    margin-bottom: 150px;
 }
 
 .facebook__logo, .linkedin__logo, .twitter__logo{
@@ -431,10 +454,18 @@ html, body {
 
 .message{
     position: fixed;
-    bottom: 0;
+    bottom: 70px;
     right: 50px;
     padding: 10px;
 }
 
+.copyright{
+    position: bottom left;
+    font-size: 0.75rem;
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+    color: #212353;
+    margin-bottom: 90px;
+}
 
 /*Footer styles end*/
