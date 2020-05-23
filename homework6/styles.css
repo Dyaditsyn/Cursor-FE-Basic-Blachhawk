@@ -471,3 +471,30 @@ html, body{
 }
 
 /*Footer styles end*/
+
+.request__demo:hover{
+    font-size: 1.1rem;
+    color: #9C69E2;
+}
+
+.pink:hover{
+    background: #FFFFFF;
+    color: #F063B8;
+    font-size: 1.25rem;
+}
+
+.purple:hover{
+    background: #FFFFFF;
+    color: #9C69E2;
+    font-size: 1.25rem;
+}
+
+.navbar__link:hover, .feature__link:hover,
+.about__link:hover, .help__link:hover, 
+.email__link:hover, .phone__link:hover{
+    color: #9C69E2;
+}
+
+.request__demo:active, .pink:active, .purple:active{
+    transform: translateX(1px) translateY(1px);
+}
