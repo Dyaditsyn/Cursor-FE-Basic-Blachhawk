@@ -1,4 +1,4 @@
-html, body {
+html, body{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-size: 16px;
@@ -43,7 +43,6 @@ html, body {
 .navbar__wrapper{
     display: flex;
     flex-wrap: wrap;
-    align-items:  space-around;
     justify-content: center;
 }
 
@@ -73,6 +72,7 @@ html, body {
     height: 60px;
     background: #FFFFFF;
     border-radius: 50px;
+    border: 0;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     font-weight: 800;
     letter-spacing: 0.005em;
@@ -131,6 +131,7 @@ html, body {
 .learn__more{
     width: 170px;
     height: 60px;
+    border: 0;
     border-radius: 50px;
     font-size: 1.125rem;
     font-weight: 800;
@@ -281,7 +282,7 @@ html, body {
     background-repeat: no-repeat;
     background-position-x: 10% ;
     background-position-y: 20%;
-   /box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
     width: 85%;
     padding: 5% 0;
     margin-top: 10%;
@@ -304,7 +305,6 @@ html, body {
 .john__fang{
     font-weight: 900;
     font-size: 1.125rem;
-    font-style: bold;
     line-height: 1.6;
     letter-spacing: 0.005em;
     color: #212353;
@@ -399,7 +399,6 @@ html, body {
 
 .DW__logo{
     font-weight: 900;
-    font-style: bold;
     font-size: 1.25rem;
     color: #212353;
     vertical-align: top;
@@ -464,7 +463,6 @@ html, body {
 }
 
 .copyright{
-    position: bottom left;
     font-size: 0.75rem;
     line-height: 1.8;
     letter-spacing: 0.01em;
