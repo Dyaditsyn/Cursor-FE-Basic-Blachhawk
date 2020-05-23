@@ -260,12 +260,12 @@ html, body{
     background-image: url(./img/security-code.svg);
 }
 
-/*testing*/
 
 .testimonials{
     display: flex;
     flex-direction: column;
-    background-color: #9C69E2;
+    /*background-color: #9C69E2;*/
+    background-color: #000000;
     border-radius: 50px;
     margin-bottom: 150px;
     margin-top: 50px;
@@ -278,10 +278,10 @@ html, body{
     background-color: #FFFFFF;
     border-radius: 20px;
     background-image: url(./img/john-fang.svg);
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
     background-repeat: no-repeat;
     background-position-x: 10% ;
     background-position-y: 20%;
-    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
     width: 85%;
     padding: 5% 0;
     margin: auto;
@@ -294,12 +294,15 @@ html, body{
 }
 
 .testimonials__header{
+    display: flex;
+    width: 85%;
+    margin: auto;
     font-family: Helvetica;
     font-weight: bold;
     font-size: 2.5rem;
     line-height: 1.3;
     color: #FFFFFF;
-    padding: 1.5em;
+    padding: 1.5em 0;
 }
 
 .john__fang{
@@ -324,19 +327,26 @@ html, body{
     padding: 5% 0;
 }
 
+.slider__nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
 .dots{
     width: 55px;
 }
 
 .arrow__previous{
     transform: rotate(-180deg);
-    opacity: 0.5;
-    fill: #FFFFFF;
+    opacity: 0.4;
 }
 
 .arrow__next{
-    opacity: 0.5;
-    fill: #FFFFFF;
+    margin-left: 20px;
+    opacity: 0.4;
 }
 
 .separator{
@@ -503,8 +513,16 @@ html, body{
     border-radius: 50%;
 }
 
+.arrow__previous:hover{
+    transform: rotate(-180deg);
+    opacity: 0.7;
+}
+
+.arrow__next:hover{
+    margin-left: 20px;
+    opacity: 0.7;
+}
+
 .message:hover{
-    background-color: rgb(255, 154, 215);
-    border-radius: 50%;
 }
 
