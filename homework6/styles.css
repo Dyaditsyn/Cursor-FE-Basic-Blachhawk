@@ -99,6 +99,8 @@ html, body{
     background-size: contain;
     background-repeat: no-repeat;
     margin: 100px 0;
+    position: relative;
+    left: 5%
 }
 
 .mtext__block{
@@ -106,6 +108,8 @@ html, body{
     flex-direction: column;
     width: 40%;
     margin-bottom: 100px;
+    position: relative;
+    right: 4%;
 }
 
 .main__text{
