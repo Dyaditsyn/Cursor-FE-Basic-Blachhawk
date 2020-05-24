@@ -30,7 +30,6 @@ html, body{
 
 .header__logo{
     padding-right: 15%;
-
 }
 
 .bars__logo{
@@ -54,7 +53,6 @@ html, body{
 .navbar__list{
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .navbar__link{
