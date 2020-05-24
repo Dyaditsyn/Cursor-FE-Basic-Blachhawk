@@ -28,6 +28,11 @@ html, body{
     padding-top: 50px;
 }
 
+.header__logo{
+    padding-right: 15%;
+
+}
+
 .bars__logo{
     width: 49px;
 }
@@ -35,9 +40,9 @@ html, body{
 .logo__links{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 50%;
+    width: 40%;
 }
 
 .navbar__wrapper{
@@ -59,7 +64,7 @@ html, body{
 
 .navbar__item{
     font-weight: 500;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 .strong{
