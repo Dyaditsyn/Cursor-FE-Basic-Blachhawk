@@ -5,7 +5,7 @@ html, body{
     line-height: 1.6;
     font-weight: normal;
     color: #4B5D68;
-    background: #E5E5E5;
+    background: ##F8FBFE;
     min-height: 100vh; /*monitor screen height*/
     width: 100%;
 }
@@ -101,17 +101,16 @@ html, body{
     flex-direction: column;
     background: url(./img/save-data.svg);
     background-position: right;
-    background-size: contain;
     background-repeat: no-repeat;
     margin: 100px 0;
     position: relative;
-    left: 5%
+    left: 5%;
 }
 
 .mtext__block{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     margin-bottom: 100px;
     position: relative;
     right: 4%;
