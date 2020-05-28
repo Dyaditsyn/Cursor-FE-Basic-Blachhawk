@@ -13,18 +13,20 @@
     <div class="container">
 
         <aside class="menu__bar">
-            <a href="#!" class="bar__link">
-                <img src="./img/f.svg" alt="logo of free dashboard" class="bar__logo" /></a>
-            <a href="#!" class="bar__link">
-                <img src="./img/home.svg" alt="home page" class="bar__logo" /></a>
-            <a href="#!" class="bar__link">
-                <img src="./img/courses.svg" alt="courses available" class="bar__logo" /></a>
-            <a href="#!" class="bar__link">
-                <img src="./img/teachers.svg" alt="our teachers" class="bar__logo" /></a>
-            <a href="#!" class="bar__link">
-                <img src="./img/message.svg" alt="contact us" class="bar__logo" /></a>
-            <a href="#!" class="bar__link">
-                <img src="./img/settings.svg" alt="settings" class="bar__logo" /></a>
+            <div class="inner__menu">
+                <a href="#!" class="bar__link">
+                <img src="./img/f.svg" alt="logo of free dashboard" class="f__logo" /></a>
+                <a href="#!" class="bar__link">
+                    <img src="./img/home.svg" alt="home page" class="bar__logo" /></a>
+                <a href="#!" class="bar__link">
+                    <img src="./img/courses.svg" alt="courses available" class="bar__logo" /></a>
+                <a href="#!" class="bar__link">
+                    <img src="./img/teachers.svg" alt="our teachers" class="bar__logo" /></a>
+                <a href="#!" class="bar__link">
+                    <img src="./img/message.svg" alt="contact us" class="bar__logo" /></a>
+                <a href="#!" class="bar__link">
+                    <img src="./img/settings.svg" alt="settings" class="bar__logo" /></a>
+            </div>
             <a href="#!" class="bar__link">
                 <img src="./img/exit.svg" alt="exit" class="bar__logo" /></a>  
         </aside>
@@ -38,19 +40,21 @@
 
             <section class="mycourse__wrapper">
                 <div class="my__course">
-                    <div class="white__back">
-                        <img src="./img/spanish.svg" alt="spanish course" class="course__logo" />
-                    </div>
-                    <div class="course">
-                        <h4 class="course__title">Spanish B2</h4>
-                        <p class="course__teacher">by Alejandro Velazquez</p>
+                    <div class="course__present">
+                        <div class="white__back">
+                            <img src="./img/spanish.svg" alt="spanish course" class="course__logo" />
+                        </div>
+                        <div class="course">
+                            <h4 class="course__title">Spanish B2</h4>
+                            <p class="course__teacher">by Alejandro Velazquez</p>
+                        </div>
                     </div>
                     <div class="progress">
                         <img src="./img/progress.svg" alt="course progress 83%" class="progress__logo" />
                         <span class="percent">83%</span>
                     </div>
-                    <div class="button">
-                        <button class="continue" type="submit">Continue</button>
+                    <div class="continue__btn">
+                        <button class="button" type="submit">Continue</button>
                     </div>
                 </div>
                 <nav class="courses__nav">
@@ -68,122 +72,142 @@
                 <nav class="courses__sort">
                     <ul class="courses__choose">
                         <li class="courses__item active">
-                            <a href="#!" class="сourses__link">All Courses</a>
+                            <a href="#!" class="сourses__link link">All Courses</a>
                         </li>
                         <li class="courses__item">
-                            <a href="#!" class="courses__link">The Newest</a>
+                            <a href="#!" class="courses__link link">The Newest</a>
                         </li>
                         <li class="courses__item">
-                            <a href="#!" class="сourses__link">Top Rated</a>
+                            <a href="#!" class="сourses__link link">Top Rated</a>
                         </li>
                         <li class="courses__item">
-                            <a href="#!" class="courses__link">Most Popular</a>
+                            <a href="#!" class="courses__link link">Most Popular</a>
                         </li>
                     </ul>
                 </nav>
 
-                <div class="course">
-                    <div class="white__back">
-                        <img src="./img/figma.svg" alt="figma course" class="course__logo" />
+                <div class="course__description">
+                    <div class="course__present">
+                        <div class="white__back">
+                            <img src="./img/figma.svg" alt="figma course" class="course__logo" />
+                        </div>
+                        <div class="course">
+                            <h4 class="course__title">Learn Figma</h4>
+                            <p class="course__teacher">by Christopher Morgan</p>
+                        </div>
                     </div>
-                    <div class="course">
-                        <h4 class="course__title">Learn Figma</h4>
-                        <p class="course__teacher">by Christopher Morgan</p>
+                    <div class="course__stat">
+                        <div class="duration">
+                            <img src="./img/clock.svg" alt="course duration 6h 30min" class="clock__logo" />
+                            <span>6h 30min</span>
+                        </div>
+                        <div class="rating">
+                            <img src="./img/fire.svg" alt="course rating 4.9" class="rating__logo" />
+                            <span>4.9</span>
+                        </div>
                     </div>
-                    <div class="duration">
-                        <img src="./img/clock.svg" alt="course duration 6h 30min" class="clock__logo" />
-                        <span>6h 30min</span>
-                    </div>
-                    <div class="rating">
-                        <img src="./img/fire.svg" alt="course rating 4.9" class="rating__logo" />
-                        <span>4.9</span>
-                    </div>
-                    <div class="button">
-                        <button class="view" type="submit">View course</button>
-                    </div>
-                </div>
-
-                <div class="course">
-                    <div class="white__back">
-                        <img src="./img/photo.svg" alt="analog photography course" class="course__logo" />
-                    </div>
-                    <div class="course">
-                        <h4 class="course__title">Analog photography</h4>
-                        <p class="course__teacher"> by Alejandro Velazquez</p>
-                    </div>
-                    <div class="duration">
-                        <img src="./img/clock.svg" alt="course duration 3h 15min" class="clock__logo" />
-                        <span>3h 15min</span>
-                    </div>
-                    <div class="rating">
-                        <img src="./img/fire.svg" alt="course rating 4.7" class="rating__logo" />
-                        <span>4.7</span>
-                    </div>
-                    <div class="button">
-                        <button class="view" type="submit">View course</button>
+                    <div class="view__btn">
+                        <button class="button" type="submit">View course</button>
                     </div>
                 </div>
 
-                <div class="course">
-                    <div class="white__back">
-                        <img src="./img/insta.svg" alt="master instagram course" class="course__logo" />
+                <div class="course__description">
+                    <div class="course__present">
+                        <div class="white__back">
+                            <img src="./img/photo.svg" alt="analog photography course" class="course__logo" />
+                        </div>
+                        <div class="course">
+                            <h4 class="course__title">Analog photography</h4>
+                            <p class="course__teacher"> by Alejandro Velazquez</p>
+                        </div>
                     </div>
-                    <div class="course">
-                        <h4 class="course__title">Master Instagram</h4>
-                        <p class="course__teacher">by Sophie Gill</p>
+                    <div class="course__stat">
+                        <div class="duration">
+                            <img src="./img/clock.svg" alt="course duration 3h 15min" class="clock__logo" />
+                            <span>3h 15min</span>
+                        </div>
+                        <div class="rating">
+                            <img src="./img/fire.svg" alt="course rating 4.7" class="rating__logo" />
+                            <span>4.7</span>
+                        </div>
                     </div>
-                    <div class="duration">
-                        <img src="./img/clock.svg" alt="course duration 7h 40min" class="clock__logo" />
-                        <span>7h 40min</span>
-                    </div>
-                    <div class="rating">
-                        <img src="./img/fire.svg" alt="course rating 4.6" class="rating__logo" />
-                        <span>4.6</span>
-                    </div>
-                    <div class="button">
-                        <button class="view" type="submit">View course</button>
-                    </div>
-                </div>
-
-                <div class="course">
-                    <div class="white__back">
-                        <img src="./img/pencil.svg" alt="basics of drawing course" class="course__logo" />
-                    </div>
-                    <div class="course">
-                        <h4 class="course__title">Basics of drawing</h4>
-                        <p class="course__teacher">by Jean Tate</p>
-                    </div>
-                    <div class="duration">
-                        <img src="./img/clock.svg" alt="course duration 11h 30min" class="clock__logo" />
-                        <span>11h 30min</span>
-                    </div>
-                    <div class="rating">
-                        <img src="./img/fire.svg" alt="course rating 4.8" class="rating__logo" />
-                        <span>4.8</span>
-                    </div>
-                    <div class="button">
-                        <button class="view" type="submit">View course</button>
+                    <div class="view__btn">
+                        <button class="button" type="submit">View course</button>
                     </div>
                 </div>
 
-                <div class="course">
-                    <div class="white__back">
-                        <img src="./img/ps.svg" alt="photoshop - essence course" class="course__logo" />
+                <div class="course__description">
+                    <div class="course__present">
+                        <div class="white__back">
+                            <img src="./img/insta.svg" alt="master instagram course" class="course__logo" />
+                        </div>
+                        <div class="course">
+                            <h4 class="course__title">Master Instagram</h4>
+                            <p class="course__teacher">by Sophie Gill</p>
+                        </div>
                     </div>
-                    <div class="course">
-                        <h4 class="course__title">Photoshop - Essence</h4>
-                        <p class="course__teacher">by David Green</p>
+                    <div class="course__stat">
+                        <div class="duration">
+                            <img src="./img/clock.svg" alt="course duration 7h 40min" class="clock__logo" />
+                            <span>7h 40min</span>
+                        </div>
+                        <div class="rating">
+                            <img src="./img/fire.svg" alt="course rating 4.6" class="rating__logo" />
+                            <span>4.6</span>
+                        </div>
                     </div>
-                    <div class="duration">
-                        <img src="./img/clock.svg" alt="course duration 5h 35min" class="clock__logo" />
-                        <span>5h 35min</span>
+                    <div class="view__btn">
+                        <button class="button" type="submit">View course</button>
                     </div>
-                    <div class="rating">
-                        <img src="./img/fire.svg" alt="course rating 4.7" class="rating__logo" />
-                        <span>4.7</span>
+                </div>
+
+                <div class="course__description">
+                    <div class="course__present">
+                        <div class="white__back">
+                            <img src="./img/pencil.svg" alt="basics of drawing course" class="course__logo" />
+                        </div>
+                        <div class="course">
+                            <h4 class="course__title">Basics of drawing</h4>
+                            <p class="course__teacher">by Jean Tate</p>
+                        </div>
                     </div>
-                    <div class="button">
-                        <button class="view" type="submit">View course</button>
+                    <div class="course__stat">
+                        <div class="duration">
+                            <img src="./img/clock.svg" alt="course duration 11h 30min" class="clock__logo" />
+                            <span>11h 30min</span>
+                        </div>
+                        <div class="rating">
+                            <img src="./img/fire.svg" alt="course rating 4.8" class="rating__logo" />
+                            <span>4.8</span>
+                        </div>
+                    </div>
+                    <div class="view__btn">
+                        <button class="button" type="submit">View course</button>
+                    </div>
+                </div>
+
+                <div class="course__description">
+                    <div class="course__present">
+                        <div class="white__back">
+                            <img src="./img/ps.svg" alt="photoshop - essence course" class="course__logo" />
+                        </div>
+                        <div class="course">
+                            <h4 class="course__title">Photoshop - Essence</h4>
+                            <p class="course__teacher">by David Green</p>
+                        </div>
+                    </div>
+                    <div class="course__stat">
+                        <div class="duration">
+                            <img src="./img/clock.svg" alt="course duration 5h 35min" class="clock__logo" />
+                            <span>5h 35min</span>
+                        </div>
+                        <div class="rating">
+                            <img src="./img/fire.svg" alt="course rating 4.7" class="rating__logo" />
+                            <span>4.7</span>
+                        </div>
+                    </div>
+                    <div class="view__btn">
+                        <button class="button" type="submit">View course</button>
                     </div>
                 </div>
 
@@ -192,8 +216,8 @@
 
         <div class="right__block__wrapper">
 
-            <section class="person__nav">
-                <input class="search" placeholder="&#128269 Search" type="search">
+            <nav class="person__nav">
+                <input class="search" placeholder="&#128269; Search" type="search">
                 <div class="alerts">
                     <a href="#!" class="alert__link">
                         <img src="./img/bell.svg" alt="alerts" class="bell" />
@@ -203,7 +227,7 @@
                     <img src="./img/avatar.svg" alt="profile picture" class="avatar" />
                     <img src="./img/arrow.svg" alt="change profile" class="change" />
                 </div>
-            </section>
+            </nav>
 
             <section class="stats__boxes">
                 <div class="completed">
@@ -221,10 +245,10 @@
                 <nav class="stat__nav">
                     <ul>
                         <li class="stat__item active">
-                            <a href="#!" class="stat__link">Learning Hours</a>
+                            <a href="#!" class="stat__link link">Learning Hours</a>
                         </li>
                         <li class="stat__item">
-                            <a href="#!" class="stat__link">My Courses</a>
+                            <a href="#!" class="stat__link link">My Courses</a>
                         </li>
                     </ul>
                     <select class="service__select">
@@ -241,7 +265,9 @@
         <section class="premium">
             <h2 class="premium__title">Lern even more!</h2>
             <p>Unlock premium features only for $9.99 per month.</p>
-            <button>Go Premium</button>
+            <div class="premium__btn">
+                <button class="button" type="submit">Go Premium</button>
+            </div>
         </section>
 
     </div>
