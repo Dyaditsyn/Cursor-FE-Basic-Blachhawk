@@ -217,15 +217,18 @@
         <div class="right__block__wrapper">
 
             <nav class="person__nav">
-                <input class="search" placeholder="&#128269; Search" type="search">
-                <div class="alerts">
-                    <a href="#!" class="alert__link">
-                        <img src="./img/bell.svg" alt="alerts" class="bell" />
-                        <img src="./img/notification.svg" alt="new alert" class="new__alert" />1</a>
-                </div>
-                <div class="profile">
-                    <img src="./img/avatar.svg" alt="profile picture" class="avatar" />
-                    <img src="./img/arrow.svg" alt="change profile" class="change" />
+                    <input class="search" placeholder="&#128269; Search" aria-label="search something" type="search">
+                <div class="profile__alerts">
+                    <div class="alerts">
+                        <a href="#!" class="alert__link">
+                            <img src="./img/bell.svg" alt="alerts" class="bell" />
+                            <img src="./img/notification.svg" alt="new alert" class="new__alert" />
+                            <span class="notif__num">1</span></a>
+                    </div>
+                    <div class="profile">
+                        <img src="./img/avatar.svg" alt="profile picture" class="avatar" />
+                        <img src="./img/arrow.svg" alt="change profile" class="change" />
+                    </div>
                 </div>
             </nav>
 
@@ -240,35 +243,36 @@
                 </div>
             </section>
 
-            <section class="statistics__selection">
+            <section class="stat__select">
                 <h2 class="stat__title">Your statistics</h2>
                 <nav class="stat__nav">
-                    <ul>
-                        <li class="stat__item active">
-                            <a href="#!" class="stat__link link">Learning Hours</a>
-                        </li>
-                        <li class="stat__item">
-                            <a href="#!" class="stat__link link">My Courses</a>
-                        </li>
-                    </ul>
+                    <div class="graph__select">
+                        <ul>
+                            <li class="stat__item active">
+                                <a href="#!" class="stat__link link">Learning Hours</a>
+                            </li>
+                            <li class="stat__item">
+                                <a href="#!" class="stat__link link">My Courses</a>
+                            </li>
+                        </ul>
+                    </div>
                     <select class="service__select">
                         <option selected disabled>Select</option>
                         <option>Weekly</option>
                         <option>Monthly</option>
                     </select>
-
                 </nav>
             </section>
 
-        </div>
+            <section class="premium">
+                <h2 class="premium__title">Lern even more!</h2>
+                <p>Unlock premium features only for $9.99 per month.</p>
+                <div class="premium__btn">
+                    <button class="button" type="submit">Go Premium</button>
+                </div>
+            </section>
 
-        <section class="premium">
-            <h2 class="premium__title">Lern even more!</h2>
-            <p>Unlock premium features only for $9.99 per month.</p>
-            <div class="premium__btn">
-                <button class="button" type="submit">Go Premium</button>
-            </div>
-        </section>
+        </div>
 
     </div>
 </body>

@@ -227,6 +227,117 @@ html, body{
     width: 30%;
 }
 
+/*left block styles end*/
+
+
+/*right block styles start*/
+
+.right__block__wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 4%;
+}
+
+.person__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search{
+    flex-grow: 1;
+    margin-right: 5%;
+    background-color: #F5F5F7;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.profile__alerts{
+    display: flex;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.change{
+    margin-left: 5px;
+}
+
+.alerts{
+    position: relative;
+    padding-right: 20px;
+}
+
+.bell{
+    padding: 6px;
+}
+
+.new__alert{
+    position: absolute;
+    top: 0;
+    right:20px;
+}
+
+.notif__num{
+    position: absolute;
+    top: -2px;
+    right: 25px;
+    font-size: 10px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.stats__boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed, .in__progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F7;
+    border-radius: 14px;
+    padding: 0 10%;
+    width: 47%;
+}
+
+.boxes__num{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 102px;
+}
+
+.boxes__text{
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 10%;
+}
+
+.stat__title{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 40px;
+}
+
+.stat__nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*right block styles end*/
+
 .link:hover{
     text-decoration: underline;
 }
