@@ -80,7 +80,7 @@ html, body{
     font-family: 'Baloo Bhai 2', cursive;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 57px;
 }
 
@@ -258,10 +258,12 @@ html, body{
 }
 
 .search{
+    background: url(img/search.svg) no-repeat;
+    background-position: 15px;
     flex-grow: 1;
     margin-right: 5%;
     background-color: #F5F5F7;
-    padding: 15px;
+    padding: 15px 15px 15px 45px;
     border-radius: 8px;
     border: none;
 }
