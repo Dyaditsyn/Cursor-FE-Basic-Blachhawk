@@ -6,8 +6,9 @@ html, body{
     line-height: 15px;
     color: #000000;
     background: #FFFFFF;
-    min-height: 600px; /*monitor screen height*/
+    min-height: 600px;
     min-width: 1100px;
+    margin: 0 auto;
 }
 
 .link{
@@ -20,9 +21,7 @@ html, body{
     max-height: 900px;
     display: flex;
     margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 2.3vw;
-    margin-right: 4.6vw;
+    margin-left: 3em;
 }
 
 .menu__bar{
@@ -37,7 +36,9 @@ html, body{
     max-width: 132px;
     height: 95vh;
     border-radius: 24px;
-    margin-right: 1%;
+    margin-right: 1em;
+    position: sticky;
+    top: 2.5em;
 }
 
 .f__logo{
@@ -59,7 +60,7 @@ html, body{
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: 2%;
+    margin-left: 4em;
     padding-top: 30px;
 }
 
@@ -92,6 +93,7 @@ html, body{
 
 .mycourse__wrapper{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-top: 30px;
 }
@@ -103,6 +105,12 @@ html, body{
     background: #F5F5F7;
     border-radius: 14px;
     flex-grow: 1;
+}
+
+.mycourse__present{
+    display: flex;
+    align-items: center;
+    width: 46%;
 }
 
 .course{
@@ -182,7 +190,7 @@ html, body{
     line-height: 15px;
     color: #FFFFFF;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 1em 2em;
     margin: 20px 20px 20px 0;
 }
 
@@ -201,14 +209,14 @@ html, body{
 }
 
 .courses__item, .stat__item{
-    margin-right: 5%;
+    margin-right: 2em;
     font-family: 'Baloo Bhai 2', cursive;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 16px;
     line-height: 26px;
     color: #000000;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .active{
@@ -245,8 +253,8 @@ html, body{
 .right__block__wrapper{
     display: flex;
     flex-direction: column;
-    width: 40%;
-    margin-left: 4%;
+    width: 35%;
+    margin-left: 4em;
     padding-top: 30px;
 }
 
@@ -261,7 +269,7 @@ html, body{
     background: url(img/search.svg) no-repeat;
     background-position: 15px;
     flex-grow: 1;
-    margin-right: 5%;
+    margin-right: 2em;
     background-color: #F5F5F7;
     padding: 15px 15px 15px 45px;
     border-radius: 8px;
@@ -326,7 +334,7 @@ html, body{
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
-    line-height: 102px;
+    line-height: 92px;
 }
 
 .boxes__text{
@@ -341,13 +349,13 @@ html, body{
     font-weight: bold;
     font-size: 24px;
     line-height: 38px;
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
 .stat__nav{
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .graph__select{
@@ -365,7 +373,7 @@ html, body{
 
 .graph{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .premium{
@@ -375,12 +383,12 @@ html, body{
     background-position: right;
     background-repeat: no-repeat;
     background-position-x: 80%;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .premium__text{
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-left: 2em;
+    margin-top: 2em;
     width: 45%;
 }
 
@@ -408,6 +416,15 @@ html, body{
     color: #000000;
     background-color: #FFFFFF;
     border: 1px solid #000000;
+}
+
+.bar__logo:hover, .prev__course:hover, .next__course:hover{
+    transform: scale(1.25);
+    filter: contrast(185%);
+}
+
+.prev__course:hover, .next__course:hover{
+    transform: scale(1.1);
 }
 
 .button:active, .prev__course:active, .next__course:active{
