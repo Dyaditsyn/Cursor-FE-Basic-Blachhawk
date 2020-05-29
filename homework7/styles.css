@@ -31,9 +31,11 @@ html, body{
     justify-content: space-between;
     align-items: center;
     background-color: #000000;
+    box-shadow: 20px 0 20px rgba(0, 0, 0, 0.3);
     padding: 50px 0;
     width: 10%;
     max-width: 132px;
+    height: 95vh;
     border-radius: 24px;
     margin-right: 1%;
 }
@@ -46,6 +48,7 @@ html, body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     height: 70%;
 }
 
@@ -56,15 +59,21 @@ html, body{
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-left: 2%;
+    padding-top: 30px;
 }
 
 .header{
     background-color: #F5F5F7;
     border-radius: 14px;
-    background-image: url(./img/josh.svg);
-    background-position: right;
-    background-repeat: no-repeat;
+    position: relative;
     padding: 5%;
+}
+
+.header__pic{
+    position: absolute;
+    bottom: 0;
+    right: 13%;
 }
 
 .header__title{
@@ -78,6 +87,7 @@ html, body{
 .header__content{
     font-size: 16px;
     line-height: 24px;
+    padding-bottom: 10px;
 }
 
 .mycourse__wrapper{
@@ -173,7 +183,7 @@ html, body{
     color: #FFFFFF;
     cursor: pointer;
     padding: 10px 20px;
-    margin: 20px;
+    margin: 20px 20px 20px 0;
 }
 
 .courses__title{
@@ -190,7 +200,7 @@ html, body{
     margin-top: 10px;
 }
 
-.courses__item{
+.courses__item, .stat__item{
     margin-right: 5%;
     font-family: 'Baloo Bhai 2', cursive;
     font-style: normal;
@@ -237,6 +247,7 @@ html, body{
     flex-direction: column;
     width: 40%;
     margin-left: 4%;
+    padding-top: 30px;
 }
 
 .person__nav{
@@ -328,12 +339,61 @@ html, body{
     font-weight: bold;
     font-size: 24px;
     line-height: 38px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .stat__nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.graph__select{
+    display: flex;
+    flex-grow: 1;
+}
+
+.service__select{
+    background: #F5F5F7;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.graph{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.premium{
+    background-color: #F5F5F7;
+    border-radius: 14px;
+    background-image: url(./img/premium.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    margin-top: 30px;
+}
+
+.premium__text{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 45%;
+}
+
+.premium__title{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+
+}
+
+.premium__content{
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /*right block styles end*/
@@ -351,51 +411,3 @@ html, body{
 .button:active, .prev__course:active, .next__course:active{
     transform: translateX(1px) translateY(1px);
 }
-/*pseudo starts
-
-.request__demo:hover{
-    font-size: 1.1rem;
-    color: #9C69E2;
-}
-
-.pink:hover{
-    background: #FFFFFF;
-    color: #F063B8;
-    font-size: 1.25rem;
-}
-
-.purple:hover{
-    background: #FFFFFF;
-    color: #9C69E2;
-    font-size: 1.25rem;
-}
-
-.navbar__link:hover, .feature__link:hover,
-.about__link:hover, .help__link:hover, 
-.email__link:hover, .phone__link:hover{
-    color: #9C69E2;
-}
-
-.request__demo:active, .pink:active, .purple:active{
-    transform: translateX(1px) translateY(1px);
-}
-
-.facebook__logo:hover, .twitter__logo:hover, .instagram__logo:hover{
-    background-color: rgba(69, 69, 69, 0.5);
-    border-radius: 50%;
-}
-
-.arrow__previous:hover{
-    opacity: 1;
-}
-
-.arrow__next:hover{
-    opacity: 1;
-}
-
-.message:hover{
-    transform: scale(1.25);
-    filter: contrast(185%);
-}
-
-pseudo ends */ 
