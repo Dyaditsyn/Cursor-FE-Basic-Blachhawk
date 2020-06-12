@@ -353,3 +353,62 @@ html, body{
         padding-right: 35%;
     }
 }
+
+/* Get started styles */
+
+.get-started__wrapper{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.get-started__blue, .blue-title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.get-started__title, .section__title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    padding-top: 30px;
+}
+
+.get-started__text__1, .get-started__text__2, text{
+    font-size: 16px;
+    line-height: 23px;
+    color: #4F4F4F;
+    padding-top: 25px;
+}
+
+.get-started__link, .learn-more{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    padding-top: 20px;
+}
+
+.get-started__pics{
+    margin-top: 30px;
+    background: url(./img/desktop/mobile-phone.png), url(./img/desktop/mobile-circles.png);
+    background-repeat: no-repeat no-repeat;
+    background-position: top 90px right 43px, top center;
+    padding-bottom: 140%;
+}
+
+.notification-btn{
+    background: #FFFFFF;
+    box-shadow: 0px 2.47691px 12.3845px rgba(0, 0, 0, 0.25), 0px 1.98153px 4.95382px rgba(51, 51, 51, 0.1);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+
