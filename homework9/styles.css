@@ -136,7 +136,8 @@ html, body{
     font-size: 16px;
     line-height: 21px;
     color: #00ADEE;
-    margin-top: 50px;
+    text-transform: uppercase;
+    padding-top: 50px;
 }
 
 .what-is__title, .section__title{
@@ -144,19 +145,211 @@ html, body{
     font-size: 28px;
     line-height: 37px;
     color: #333333;
-    margin-top: 20px;
+    padding-top: 30px;
 }
 
-.what-is__text1, .what-is__text2, text{
+.what-is__text__1, .what-is__text__2, text{
     font-size: 16px;
     line-height: 23px;
     color: #4F4F4F;
-    margin-top: 20px;
+    padding-top: 25px;
 }
 
 .what-is__link, .learn-more{
+    display: block;
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
     color: #00ADEE;
+    padding-top: 20px;
+}
+
+.what-is__pics{
+    margin-top: 30px;
+    background: linear-gradient(to bottom, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(./img/desktop/ronaldo-mobile.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    padding-left: 7%;
+    padding-bottom: 45%;
+}
+
+.game__pic{
+    max-width: 250px;
+}
+
+.schedule{
+    background: #FFFFFF;
+    box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    width: 250px;
+    height: 150px;
+    position: relative;
+}
+
+.match__pic{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 50px;
+}
+
+.schedule__card{
+    display: flex;
+}
+
+.schedule__clubs-logo{
+    display: flex;
+    margin-top: 10px;
+}
+
+.arsenal__logo{
+    width: 30%;
+    margin-left: 50px;
+}
+
+.chelsea__logo{
+    width: 35%;
+    margin-left: -10px;
+}
+
+.schedule__text__time{
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+    padding-left: 10px;
+    padding-top: 18px;
+}
+
+.schedule__text__name{
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #4F4F4F;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.schedule__text__type{
+    display: block;
+    font-size: 11px;
+    line-height: 14px;
+    color: #4F4F4F;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.schedule__notify{
+    background: #EEEEEE;
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 10px;
+}
+
+.notitification__text{
+    padding: 12px 10px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #4F4F4F;
+}
+
+@media (min-width: 450px) {
+    .what-is__pics{
+        padding-top: 20%;
+        padding-left: 20%;
+        padding-bottom: 45%;
+    }
+}
+
+@media (min-width: 550px) {
+    .what-is__pics{
+        padding-top: 20%;
+        padding-left: 10%;
+        padding-bottom: 45%;
+    }
+
+    .game__pic{
+        max-width: 360px;
+    }
+
+    .schedule{
+        width: 360px;
+        height: 219px;
+        position: relative;
+    }
+    
+    .match__pic{
+        position: absolute;
+        margin-top: 190px;
+        margin-left: 110px;
+    }
+    
+    .schedule__clubs-logo{
+        margin-top: 50px;
+        margin-bottom: 32px;
+    }
+    
+    .arsenal__logo{
+        width: 40%;
+        margin-left: 35px;
+    }
+    
+    .chelsea__logo{
+        width: 45%;
+        margin-left: -15px;
+    }
+    
+    .schedule__text__time{
+        font-size: 17px;
+        line-height: 22px;
+        padding-left: 15px;
+        padding-top: 30px;
+    }
+    
+    .schedule__text__name{
+        font-size: 18px;
+        line-height: 24px;
+        padding: 15px;
+        width: 65%;
+    }
+    
+    .schedule__text__type{
+        font-size: 16px;
+        line-height: 21px;
+        padding-left: 15px;
+    }
+    
+    .notitification__text{
+        padding: 12px 15px;
+        font-size: 19px;
+        line-height: 25px;
+    }
+}
+
+@media (min-width: 1050px) {
+    .what-is{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .what-is__wrapper{
+        padding-top: 70px;
+        padding-bottom: 116px;
+        text-align: left;
+        }
+
+    .what-is__pics{
+        margin-top: 0;
+        background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(./img/desktop/ronaldo-bg.png);
+        background-repeat: no-repeat;
+        padding-top: 7.5%;
+        padding-left: 7%;
+        padding-bottom: 0;
+        width: 100%;
+    }
+
+    .what-is__text__1, .what-is__text__2, text{
+        padding-right: 35%;
+    }
 }
