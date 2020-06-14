@@ -62,7 +62,7 @@ html, body{
 
 @media (min-width: 720px) {
     .header{
-        background-image: url(./img/desktop/mobiles-bg.svg);
+        background-image: url(./img/mobiles-bg.svg);
         background-position: top right;
         background-repeat: no-repeat;
     }
@@ -166,7 +166,7 @@ html, body{
 
 .what-is__pics{
     margin-top: 30px;
-    background: linear-gradient(to bottom, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(./img/desktop/ronaldo-mobile.png);
+    background: linear-gradient(to bottom, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(./img/ronaldo-mobile.png);
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 20%;
@@ -397,10 +397,11 @@ html, body{
 
 .get-started__pics{
     margin-top: 30px;
-    background: url(./img/desktop/mobile-phone.png), url(./img/desktop/mobile-circles.png);
-    background-repeat: no-repeat no-repeat;
-    background-position: top 90px right 43px, top center;
+    background: url(./img/getstarted-mobile-bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
     padding-bottom: 140%;
+    position: relative;
 }
 
 .notification-btn{
@@ -409,6 +410,41 @@ html, body{
     width: 72px;
     height: 72px;
     border-radius: 50%;
-    border: 2px solid #000000;
+    position: absolute;
+    top: 105px;
+    left: 45px;
 }
 
+.notify-btn{
+    padding-left: 16px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.blue-circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #00ADEE;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+.notify-num{
+    display: flex;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    justify-content: center;
+}
+
+@media (min-width: 1000px) {
+
+.get-started__pics{
+    background: url(./img/getstarted-desktop-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+}
