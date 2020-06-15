@@ -408,7 +408,7 @@ html, body{
     max-width: 100%; 
    }
 
-.notification-link{
+.notification-link, .right-btn-link {
     display: block;
 }
 
@@ -446,5 +446,42 @@ html, body{
     font-size: 12px;
     line-height: 14px;
     justify-content: center;
+    padding-top: 3px;
 }
 
+.bottom-right-btn{
+    background: #FFFFFF;
+    box-shadow: 0px 2.47691px 12.3845px rgba(0, 0, 0, 0.25), 0px 1.98153px 4.95382px rgba(51, 51, 51, 0.1);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    bottom: 27%;
+    left: calc(50% + 60px);
+    position: absolute;
+    cursor: pointer;
+}
+
+.cart-btn{
+    padding-top: 20px;
+    position: relative;
+}
+
+.green-circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #40B756;
+    position: absolute;
+    top: 12px;
+    right: 13px;
+}
+
+.cart-num{
+    display: flex;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    justify-content: center;
+    padding-top: 3px;
+}
