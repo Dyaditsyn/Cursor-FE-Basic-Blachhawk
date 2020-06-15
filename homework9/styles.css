@@ -395,13 +395,21 @@ html, body{
     padding-top: 20px;
 }
 
-.get-started__pics{
-    margin-top: 30px;
-    background: url(./img/getstarted-mobile-bg.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    padding-bottom: 140%;
+.get-started__bg-pic{
+    text-align: center;
     position: relative;
+}
+
+.bg-desktop-pic{
+    display: none;
+}
+
+.bg-mobile-pic{
+    max-width: 100%; 
+   }
+
+.notification-link{
+    display: block;
 }
 
 .notification-btn{
@@ -410,13 +418,13 @@ html, body{
     width: 72px;
     height: 72px;
     border-radius: 50%;
+    top: 19%;
+    left: calc(50% - 125px);
     position: absolute;
-    top: 105px;
-    left: 45px;
+    cursor: pointer;
 }
 
 .notify-btn{
-    padding-left: 16px;
     padding-top: 10px;
     position: relative;
 }
@@ -427,8 +435,8 @@ html, body{
     border-radius: 50%;
     background: #00ADEE;
     position: absolute;
-    top: 5px;
-    right: 15px;
+    top: 9px;
+    right: 13px;
 }
 
 .notify-num{
@@ -440,11 +448,3 @@ html, body{
     justify-content: center;
 }
 
-@media (min-width: 1000px) {
-
-.get-started__pics{
-    background: url(./img/getstarted-desktop-bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    }
-}
