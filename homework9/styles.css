@@ -580,7 +580,69 @@ html, body{
         position: relative;
         padding-top: 23px;
     }
-    
+}
 
+.features{
+    background-color:  #FAFAFA;;
+}
+
+.features__wrapper{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.features__title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    padding-top: 40px;
+}
+
+.features__item{
+    margin-top: 50px;
+}
+
+@media (min-width: 720px) {
+
+    .features{
+        background-image: url(./img/features-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .features__all{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+    .feature{
+       width: 33.33%;
+       padding-left: 5%;
+       padding-right: 5%;
+    }
+
+    .features__title{
+        color: #FFFFFF;
+        padding-top: 70px;
+    }
+
+    .features__icon{
+        fill: #FFFFFF;
+    }
+
+    .features__text{
+        color: #FFFFFF;
+    }
+
+    .features__text::before{
+        content : "•";
+        padding-right : 5px;
+        color : #FFFFFF;
+    }
 
 }
