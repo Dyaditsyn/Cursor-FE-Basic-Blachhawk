@@ -343,7 +343,7 @@ html, body{
         margin-top: 0;
         background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(./img/ronaldo-bg.png);
         background-repeat: no-repeat;
-        padding-top: 7.5%;
+        padding-top: 5%;
         padding-left: 10%;
         padding-bottom: 0;
         width: 100%;
@@ -654,7 +654,7 @@ html, body{
 .what-our__wrapper{
     max-width: 100%;
     margin-top: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     overflow-x: hidden;
     position: relative;
 }
@@ -861,6 +861,10 @@ html, body{
     .get-up__text{
         padding-top: 35px;
         color: #000000;
+    }
+
+    .store__logo{
+        width: 156px;
     }
 }
 
