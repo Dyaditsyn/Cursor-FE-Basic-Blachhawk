@@ -104,6 +104,20 @@ html, body{
     .apple__logo{
         margin-right: 20px;
     }
+
+    .sports-header:hover{
+        transform: scale(1.05);
+        filter: contrast(185%);
+    }
+
+    .store__logo:hover{
+        transform: scale(1.05);
+        filter: contrast(185%);
+    }
+
+    .sports-header:active, .store__logo:active{
+        transform: translateX(1px) translateY(1px);
+    }
 }
 
 @media (min-width: 1200px) {
@@ -148,7 +162,7 @@ html, body{
     padding-top: 30px;
 }
 
-.what-is__text__1, .what-is__text__2,{
+.what-is__text__1, .what-is__text__2{
     font-size: 16px;
     line-height: 23px;
     color: #4F4F4F;
@@ -352,6 +366,14 @@ html, body{
     .what-is__text__1, .what-is__text__2{
         padding-right: 35%;
     }
+
+    .what-is__link:hover{
+        text-decoration: underline;
+    }
+
+    .what-is__link:active{
+        transform: translateX(1px) translateY(1px);
+    }
 }
 
 /* Get started styles */
@@ -362,7 +384,7 @@ html, body{
     text-align: center;
 }
 
-.get-started__blue,{
+.get-started__blue{
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
@@ -580,6 +602,23 @@ html, body{
         position: relative;
         padding-top: 23px;
     }
+
+    .get-started__link:hover{
+        text-decoration: underline;
+    }
+
+    .get-started__link:active{
+        transform: translateX(1px) translateY(1px);
+    }
+
+    .notification-btn:hover, .bottom-right-btn:hover{
+        transform: scale(1.05);
+        filter: contrast(185%);
+    }
+
+    .notification-btn:active, .bottom-right-btn:active{
+        transform: translateX(1px) translateY(1px);
+    }
 }
 
 /* features section styles */ 
@@ -762,6 +801,15 @@ html, body{
     .left-arrow{
         display: flex;
         padding-left: 16px;
+    }
+
+    .left-arrow__wrapper:hover, .right-arrow__wrapper:hover{
+        transform: scale(1.05);
+        filter: contrast(185%);
+    }
+
+    .left-arrow__wrapper:active, .right-arrow__wrapper:active{
+        transform: translateX(1px) translateY(1px);
     }
 }
 
@@ -956,8 +1004,26 @@ html, body{
     .footer__social{
         order: 3;
     }
-}
 
+    .sports-footer:hover{
+        transform: scale(1.05);
+        filter: contrast(185%);
+    }
+
+    .twitter__logo:hover, .facebook__logo:hover, .insta__logo:hover{
+        transform: scale(1.15);
+        filter: contrast(185%);
+    }
+
+    .navbar__item:hover{
+        text-decoration: underline;
+    }
+
+    .sports-footer:active, .twitter__logo:active, 
+    .facebook__logo:active, .insta__logo:active, .navbar__item:active{
+        transform: translateX(1px) translateY(1px);
+    }
+}
 
 @media (min-width: 1000px) {
 
