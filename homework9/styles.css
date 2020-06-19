@@ -843,6 +843,10 @@ input:checked[type="checkbox"]:before{
 
 @media (min-width: 720px) {
 
+    .what-our__slider{
+        transform: translateX(-155px);
+    }
+
     .left-gradient{
         width: 155px;
         height: 161px;
