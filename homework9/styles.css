@@ -841,6 +841,10 @@ input:checked[type="checkbox"]:before{
     padding-left: 20px;
 }
 
+.what-our__slider{
+    transform: translateX(-690px);
+}
+
 @media (min-width: 720px) {
 
     .what-our__slider{
