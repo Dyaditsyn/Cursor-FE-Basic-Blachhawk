@@ -1,0 +1,21 @@
+html, body{
+    background-color: white;
+    margin: 0 auto;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    color: #262626;
+}
+
+/*Effects*/
+
+.nav-item:hover{
+    transform: scale(1.05);
+    filter: contrast(185%);
+}
+
+.nav-item:active{
+    transform: translateX(1px) translateY(1px);
+}
