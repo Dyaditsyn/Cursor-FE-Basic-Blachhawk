@@ -80,11 +80,20 @@ html, body{
 .nav__tabs-active, .nav__tabs-active:hover{
     color: #262626;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.09em;
+
 }
 
 .nav__tabs-disabled, .nav__tabs-disabled:hover{
     color: #8F8F8F;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.09em;
 }
 
 .friend__title{
