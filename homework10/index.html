@@ -4,11 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram like page - Bootstrap</title>
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
 <body>
+
+    <header class="container-fluid border-bottom">
+        <div class="container">
+            <nav class="navbar navbar-expand flex-wrap navbar-light">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./img/instagram-logo.svg" alt="instagram logo" class="" /></a>
+
+                <form class="form-inline ml-auto">
+                    <input class="form-control mr-sm-2 text-center" type="search" placeholder="&#128269Search" aria-label="Search">
+                </form>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-1">
+                        <a class="nav-link" href="#">
+                            <img src="./img/home-logo.svg" alt="return to homepage" class="" /></a>
+                    </li>
+                    <li class="nav-item mx-1 relative-item">
+                        <a class="nav-link" href="#"><img src="./img/send-logo.svg" alt="my messages" class="" />
+                            <div class="notification"><span class="notification__text">5</span></div>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#"><img src="./img/compas-logo.svg" alt="navigate" class="" />
+                        </a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#"><img src="./img/heart-logo.svg" alt="favorites" class="" />
+                        </a>
+                    </li>
+                    <li class="nav-item ml-1">
+                        <a class="nav-link" href="#"><img src="./img/my-icon.svg" alt="my profile" class="" />
+                        </a>
+                    </li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+
+    <main class="my-profile">
+        <div class="container mt-3">
+            <div class="row">
+
+                <div class="col-md-3 offset-md-1 my-4">
+                    <a href="#!" class="">
+                        <img src="./img/myprofile-placeholder.png" alt="my profile picture" class="" />
+                     </a>
+                </div>
+
+                <div class="col-md-7 pr-5 my-4">
+                    <div class="profile">
+                        <div class="profile__card d-flex">
+                            <h1 class="profile__title mr-3" >name</h1>
+                            <button type="button" class="btn btn-primary btn-sm px-4 mx-2 btn-txt">Follow</button>
+                            <button type="button" class="btn btn-primary btn-sm dropdown-toggle px-3"></button>
+                            <button type="button" class="btn btn-light btn-sm px-3 mx-2 dots">⋯</button>
+                        </div>
+
+                        <div class="">
+                            <ul class="profile__stat d-flex my-4">
+                                <li class="profile__stat-item mr-4">
+                                    79 posts
+                                </li>
+                                <li class="profile__stat-item mr-4">
+                                    379 followers
+                                </li>
+                                <li class="profile__stat-item">
+                                    179 following
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="profile__description">
+                            <h6 class="profile__description-title">Name</h6>
+                            <p class="profile__description-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text.
+                            </p>
+                            <a href="#!" class="profile__description-link">bit.ly/35Ce3mX</a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 offset-md-1 d-flex my-4">
+                    <div class="friend mr-4">
+                        <a href="#!" class="friend__link">
+                            <img src="./img/frienprofile-placeholder.png" alt="friend profile picture" class="" />
+                            <h6 class="friend__title text-center py-3">Name</h6>
+                         </a>
+                    </div>
+                    <div class="friend mr-4">
+                        <a href="#!" class="friend__link">
+                            <img src="./img/frienprofile-placeholder.png" alt="friend profile picture" class="" />
+                            <h6 class="friend__title text-center py-3">Name</h6>
+                         </a>
+                    </div>
+                    <div class="friend">
+                        <a href="#!" class="friend__link">
+                            <img src="./img/frienprofile-placeholder.png" alt="friend profile picture" class="" />
+                            <h6 class="friend__title text-center py-3">Name</h6>
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="photos">
+        <div class="container border-top">
+            <div class="row">
+                <nav class="nav__tabs d-flex m-auto">
+                    <div class="nav__tabs-posts border-top border-dark pt-3 mr-5">
+                        <a href="#!" class="nav__tabs-active">
+                            <img src="./img/posts-icon.svg" alt="recent posts" class="" />
+                            <span class="text-uppercase">posts</span>
+                         </a>
+                    </div>
+                    <div class="nav__tabs-tagged py-3">
+                        <a href="#!" class="nav__tabs-disabled">
+                            <img src="./img/tagged-icon.svg" alt="recent posts" class="" />
+                            <span class="text-uppercase">tagged</span>
+                         </a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="row text-center">
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+                <div class="my__photo col-lg-4 col-md-6 my-3">
+                    <a class="" href="#"><img src="./img/myphoto-placeholder.png" alt="my photo" class="" /></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
 
 </body>
 </html>

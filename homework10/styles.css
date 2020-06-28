@@ -6,20 +6,98 @@ html, body{
     font-weight: normal;
     font-size: 17px;
     line-height: 25px;
+    color: #262626;
+}
+
+.relative-item{
+    position: relative;
+}
+
+.notification{
+    position: absolute;
+    background: #DC565B;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    top: 5px;
+    right: 0;
+}
+
+.notification__text{
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.profile__title{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 0;
+    align-items: flex-end;
+}
+
+.btn-txt{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.dots{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.profile__stat{
+    margin-bottom: 0;
+    padding-inline-start: 0;
+}
+
+.profile__stat-item{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.profile__description-title{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+
+.profile__description-text{
+    margin-bottom: 0;
+}
+
+.friend__link, .friend__link:hover,
+.nav__tabs-active, .nav__tabs-active:hover{
+    color: #262626;
+    text-decoration: none;
+}
+
+.nav__tabs-disabled, .nav__tabs-disabled:hover{
+    color: #8F8F8F;
+    text-decoration: none;
+}
+
+.friend__title{
+    font-weight: bold;
 }
 
 /*Effects*/
 
-.block:hover{
-    opacity: 0.7;
+.nav-item:hover{
+    transform: scale(1.05);
+    filter: contrast(185%);
 }
 
-.button:hover{
-    color: #44D3A8;
-    background: #FFFFFF;
-    border: 1px solid #44D3A8;
-}
-
-.button:active{
+.nav-item:active{
     transform: translateX(1px) translateY(1px);
 }
