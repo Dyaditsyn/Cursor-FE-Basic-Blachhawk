@@ -7,7 +7,10 @@ html, body{
     font-size: 17px;
     line-height: 25px;
     color: #262626;
+    min-width: 391px;
 }
+
+/*heading styles*/
 
 .relative-item{
     position: relative;
@@ -31,6 +34,19 @@ html, body{
     line-height: 14px;
     color: #FFFFFF;
 }
+
+.search__wrapper{
+    position: relative;
+}
+
+.search::before{
+    content: url(./img/search.svg);
+    position: absolute;
+    left: 25%;
+    top: 15%;
+}
+
+/*profile overview styles*/
 
 .profile__title{
     font-weight: 700;
@@ -60,9 +76,13 @@ html, body{
 
 .profile__stat-item{
     list-style-type: none;
-    font-weight: 700;
     font-size: 17px;
     line-height: 21px;
+}
+
+.profile__stat-link, .profile__stat-link:hover{
+    color: #262626;
+    text-decoration: none;
 }
 
 .profile__description-title{
@@ -84,8 +104,9 @@ html, body{
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.09em;
-
 }
+
+/*feed styles*/
 
 .nav__tabs-disabled, .nav__tabs-disabled:hover{
     color: #8F8F8F;
@@ -100,7 +121,7 @@ html, body{
     font-weight: 700;
 }
 
-/*Effects*/
+/*Effects not used in insta
 
 .nav-item:hover{
     transform: scale(1.05);
@@ -109,4 +130,4 @@ html, body{
 
 .nav-item:active{
     transform: translateX(1px) translateY(1px);
-}
+}*/
