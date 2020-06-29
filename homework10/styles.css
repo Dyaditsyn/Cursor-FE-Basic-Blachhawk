@@ -1,9 +1,9 @@
 html, body{
     background-color: white;
     margin: 0 auto;
-    font-family: Helvetica Neue;
+    font-family: 'Arimo', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 17px;
     line-height: 25px;
     color: #262626;
@@ -34,7 +34,7 @@ html, body{
 
 .profile__title{
     display: flex;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 30px;
     line-height: 35px;
     margin-bottom: 0;
@@ -42,13 +42,14 @@ html, body{
 }
 
 .btn-txt{
-    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
     font-size: 15px;
     line-height: 17px;
 }
 
 .dots{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 30px;
 }
@@ -60,13 +61,13 @@ html, body{
 
 .profile__stat-item{
     list-style-type: none;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 17px;
     line-height: 21px;
 }
 
 .profile__description-title{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 17px;
     line-height: 21px;
     margin-bottom: 0;
@@ -80,7 +81,7 @@ html, body{
 .nav__tabs-active, .nav__tabs-active:hover{
     color: #262626;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.09em;
@@ -90,14 +91,14 @@ html, body{
 .nav__tabs-disabled, .nav__tabs-disabled:hover{
     color: #8F8F8F;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.09em;
 }
 
 .friend__title{
-    font-weight: bold;
+    font-weight: 700;
 }
 
 /*Effects*/
