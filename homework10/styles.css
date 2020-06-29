@@ -33,19 +33,18 @@ html, body{
 }
 
 .profile__title{
-    display: flex;
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
     margin-bottom: 0;
-    align-items: flex-end;
+    text-align: bottom;
 }
 
 .btn-txt{
     font-family: 'Arimo', sans-serif;
     font-weight: 700;
     font-size: 15px;
-    line-height: 17px;
+    line-height: 18px;
 }
 
 .dots{
