@@ -40,11 +40,20 @@ html, body{
 }
 
 .search::before{
-    content: url(./img/search.svg);
     position: absolute;
+    content: url('./img/search.svg');
     left: 25%;
     top: 15%;
 }
+
+.search:focus-within::before{
+    content: none;
+}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
 
 /*profile overview styles*/
 
