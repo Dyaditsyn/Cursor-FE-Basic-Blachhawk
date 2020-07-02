@@ -7,7 +7,9 @@ html, body{
     font-weight: normal;  
 }
 
-.star-wars{
+/*jedi styles*/
+
+.jedi-swards{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,14 +19,32 @@ html, body{
     background-repeat: no-repeat;
 }
 
+.menu-icon-label{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 65px;
+    cursor: pointer;
+}
+
+input[type=checkbox]{
+    position: absolute;
+    z-index: -1;
+}
 
 .menu-icon{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     display: block;
     width: 120px;
     height: 5px;
 	border-right: 20px solid #fff;
     border-left: 90px solid #fff;
+    transition: transform 0.5s ease-in, top 0.5s linear 0.5s;
 }
 
 .menu-icon::before{
@@ -36,7 +56,8 @@ html, body{
     width: 120px;
     height: 5px;
 	border-right: 90px solid #fff;
-	border-left: 20px solid #fff;
+    border-left: 20px solid #fff;
+    transition: 0.25s linear 0.5s;
 }
 
 .menu-icon::after{
@@ -49,41 +70,35 @@ html, body{
     height: 5px;
 	border-right: 90px solid #fff;
     border-left: 20px solid #fff;
+    transition: transform 0.5s ease-in, top 0.5s linear 0.5s;
 }
 
-.menu-icon:hover::before{
-    border-left-color: transparent;
-    border-right-color: transparent;
-    transition: 0.5s linear;
-}
-
-.menu-icon:hover{
+#check:checked + .menu-icon{
     transform: rotate(45deg);
     top: 0;
-    box-shadow: 0 0 10px 5px red;
-    transition: top 1s linear, transform 1s ease-in 1s;
-  }  
+    transition: top 0.5s linear, transform 0.5s ease-in 0.5s;
+}
 
-.menu-icon:hover::after{
+#check:checked + .menu-icon::before{
+    border-left-color: transparent;
+    border-right-color: transparent;
+    transition: 0.25s linear;
+}
+
+#check:checked + .menu-icon::after{
     transform: rotate(-90deg);
     top: 0;
+    transition: top 0.5s linear, transform 0.5s ease-in 0.5s;
+} 
+
+#check:checked:hover + .menu-icon{ 
     box-shadow: 0 0 10px 5px green;
-    transition: top 1s linear, transform 1s ease-in 1s;
-  }
+}  
 
-
-
-
-
-
-
-/*Effects*/
-
-.nav-item:hover{
-    transform: scale(1.05);
-    filter: contrast(185%);
+#check:checked:hover + .menu-icon::after{
+    box-shadow: 0 0 10px 5px red;
 }
 
-.nav-item:active{
-    transform: translateX(1px) translateY(1px);
-}
+/*cradle styles*/
+
+ 
